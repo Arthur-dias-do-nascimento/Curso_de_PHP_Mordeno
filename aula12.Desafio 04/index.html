@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 4 - Analisador de números reais</title>
+</head>
+<body>
+    <h1>Analisador de números reais</h1>
+
+    <form action="analisador.php" method="get">
+        <label for="numero">Digite um número qualquer:</label> <br>
+        <input 
+            type="number"
+            name="numero"
+            id="input-number-numero"
+            placeholder="Digite um número qualquer"
+            step="0.001"
+            required
+        > <br>
+
+        <button type="submit">
+            Analisar
+        </button>
+    </form>
+</body>
+</html>
